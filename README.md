@@ -171,7 +171,7 @@ Vercel 部署步骤如下：
 
 2. 输入一个你喜欢的 Vercel 项目名称，默认 private 即可，然后点击 `Create`。
 
-   ![](https://img.gpt-vip.top/2022-08-24-17-24-16.png "创建 Vercel 项目")
+   ![](https://iili.io/JnDEu4I.png "创建 Vercel 项目")
 
 3. 接着，Vercel 会基于 LearnHabs 模板帮助你新建并初始化仓库，仓库名为你之前输入的项目名。几十秒后，满屏的烟花会庆祝你部署成功。此时，点击 `Go to Dashboard` 跳转到应用的控制台。
 
