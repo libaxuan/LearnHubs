@@ -77,7 +77,7 @@
 
    ![](https://img.gpt-vip.top/20180505202201.png?imageMogr2/format/webp)
 
-5. 在同一页面选择「Settings」>「Pages」>「Build and deployment」>「Branch」, 将 gh-page branch 设为 GitHub Pages 的来源，网站运行目录默认为 `/(root)`。设置完成后，点击「Save」。如果找不到 gh-pages 分支，可以按照上面提到的第三步进行操作，或在 GitHub 中修改任意文件以手动触发 GitHub Action，等待其执行完成后，再重新设置 Pages 的来源。
+5. 在同一页面选择「Settings」>「Pages」>「Build and deployment」>「Branch」, 将 gh-page branch 设为 GitHub Pages 的来源，网站运行目录默认为 `/(root)`。设置完成后，点击「Save」。如果找不到 lh-pages 分支，可以按照上面提到的第三步进行操作，或在 GitHub 中修改任意文件以手动触发 GitHub Action，等待其执行完成后，再重新设置 Pages 的来源。
 
    ![](https://iili.io/JnQjSpe.webp?imageMogr2/format/webp)
 
@@ -167,7 +167,7 @@ Vercel 的速度比 GitHub Pages 稳定一些，不过「\*.vercel.app」域名�
 
 Vercel 部署步骤如下：
 
-1. 点击 [![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FLearnHabs%2Ftree%2Fgh-pages) 或将 `https://vercel.com/new/clone?repository-url=https://github.com/libaxuan/LearnHubs/tree/gh-pages` 中的 `libaxuan/LearnHubs` 改为 `你的用户名/仓库名`，然后会跳转至 Vercel 进行网页部署。如果你未登录，Vercel 提示你注册或登录，请使用 GitHub 账户进行快捷登录。
+1. 点击 [![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FLearnHabs%2Ftree%2Flh-pages) 或将 `https://vercel.com/new/clone?repository-url=https://github.com/libaxuan/LearnHubs/tree/lh-pages` 中的 `libaxuan/LearnHubs` 改为 `你的用户名/仓库名`，然后会跳转至 Vercel 进行网页部署。如果你未登录，Vercel 提示你注册或登录，请使用 GitHub 账户进行快捷登录。
 
 2. 输入一个你喜欢的 Vercel 项目名称，默认 private 即可，然后点击 `Create`。
 
@@ -197,7 +197,7 @@ Vercel 部署步骤如下：
        # 与 Vercel 链接的仓库名，也就是 Vercel 部署时新建的仓库
        dst_repo_name: LearnHabs-Vercel
        dst_branch: main
-       src_branch: gh-pages
+       src_branch: lh-pages
        clean: true
    ```
 
