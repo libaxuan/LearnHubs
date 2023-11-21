@@ -14,7 +14,7 @@
   </ul>
 </details>
 
-<a href="https://discord.gg/libaxuan">
+<a href="https://discord.gg/TeUFcFJy">
    <img src="https://img.shields.io/discord/1048780149899939881?color=%2385c8c8&label=Discord&logo=discord&style=for-the-badge" alt="chat on Discord">
 </a>
 
