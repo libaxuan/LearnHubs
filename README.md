@@ -24,7 +24,7 @@
 
 更重要的是，**笔记里的知识并不属于你，只有经过消化、应用，才会成为我们的财富。**
 
-为此，我基于 VuePress 和 vuepress-theme-hope 构建了 LearnHabs 开源笔记，将我所有的笔记与文章聚合到同一页面形成知识库，便于集中管理和分享。
+为此，我基于 VuePress 和 vuepress-theme-hope 构建了 LearnHabs 学习中心，将我所有的笔记与文章聚合到同一页面形成知识库，便于集中管理和分享。
 
 ![](https://iili.io/JnLZ31S.png?imageMogr2/thumbnail/600x "笔记 + 文章 = LearnHabs 知识库")
 
