@@ -6,8 +6,8 @@
   <ul>
     <li><a href="#-初衷">✨ 初衷</a></li>
     <li><a href="#-笔记结构">🧱 笔记结构</a></li>
-    <li><a href="#-搭建-LearnHabs">🍥 搭建 LearnHabs</a></li>
-    <li><a href="#-配置-LearnHabs">🔣 配置 LearnHabs</a></li>
+    <li><a href="#-搭建-LearnHubs">🍥 搭建 LearnHubs</a></li>
+    <li><a href="#-配置-LearnHubs">🔣 配置 LearnHubs</a></li>
     <li><a href="#️-网站部署">🖥️ 网站部署</a></li>
     <li><a href="#-常见问题">🤔 常见问题</a></li>
     <li><a href="#-版本升级">🆙 版本升级</a></li>
@@ -24,9 +24,9 @@
 
 更重要的是，**笔记里的知识并不属于你，只有经过消化、应用，才会成为我们的财富。**
 
-为此，我基于 VuePress 和 vuepress-theme-hope 构建了 LearnHabs 学习中心，将我所有的笔记与文章聚合到同一页面形成知识库，便于集中管理和分享。
+为此，我基于 VuePress 和 vuepress-theme-hope 构建了 LearnHubs 学习中心，将我所有的笔记与文章聚合到同一页面形成知识库，便于集中管理和分享。
 
-![](https://iili.io/JnLZ31S.png?imageMogr2/thumbnail/600x "笔记 + 文章 = LearnHabs 知识库")
+![](https://iili.io/JnLZ31S.png?imageMogr2/thumbnail/600x "笔记 + 文章 = LearnHubs 知识库")
 
 ![](https://iili.io/JnLZ31S.png "笔记/博客自动化发布")
 
@@ -40,9 +40,9 @@
 - 生活角落：说明书、生活记录和小技巧；
 - 博客汇总：聚合所有博客文章，以分类、标签、时间轴等方式进行组合。
 
-## 🍥 搭建 LearnHabs
+## 🍥 搭建 LearnHubs
 
-1. 首先，进入 [LearnHabs](https://github.com/libaxuan/LearnHubs) 项目页，点击右上角「Use this template」后选择「Create a new repository」。
+1. 首先，进入 [LearnHubs](https://github.com/libaxuan/LearnHubs) 项目页，点击右上角「Use this template」后选择「Create a new repository」。
 
    ![](https://img.gpt-vip.top/2022-08-10-19-32-05.png?imageMogr2/format/webp)
 
@@ -73,7 +73,7 @@
       ### 没有服务器的话，请删除本区块代码，防止报错 ###
    ```
 
-4. 然后点击「Settings」, 修改 `Repository name` 为 `用户名.github.io`。假设你的仓库链接是 `https://github.com/xxx/LearnHabs`，那么中间的 `xxx` 就是你的用户名。如果该仓库名称已被使用，GitHub Pages 将无法正常显示样式，请查看页面底部的常见问题来设置子域名。
+4. 然后点击「Settings」, 修改 `Repository name` 为 `用户名.github.io`。假设你的仓库链接是 `https://github.com/xxx/LearnHubs`，那么中间的 `xxx` 就是你的用户名。如果该仓库名称已被使用，GitHub Pages 将无法正常显示样式，请查看页面底部的常见问题来设置子域名。
 
    ![](https://img.gpt-vip.top/20180505202201.png?imageMogr2/format/webp)
 
@@ -87,11 +87,11 @@
 
 注意：如果出现报错 `Error: Input required and not supplied: server`，请删除 `.github/workflows/main.yml` 中 Sync files 区块的代码，以避免出现报错。
 
-## 🔣 配置 LearnHabs
+## 🔣 配置 LearnHubs
 
 ### 文档结构
 
-LearnHabs 网站的配置和文本都存放在 `docs` 文件夹中。文章和页面的配置可参考主目录下的 [samplepage.md](https://github.com/libaxuan/LearnHubs/blob/main/samplepage.md?plain=1)。其中，`order` 参数表示侧边栏的顺序，数字越小越靠前，支持非整数和负数。我个人的偏好是将非干货或随想短文的 order 设置在 -0.01 到 -0.99，将干货类长文的 order 设置在 -1 到负无穷。每次新增文章都会在上一篇的基础上递减 order 值。这种设置使我能随时记录低于 1000 字的短文，同时不会影响那些寻求干货文章的用户体验，因为干货文章的排序始终保持在最上方。
+LearnHubs 网站的配置和文本都存放在 `docs` 文件夹中。文章和页面的配置可参考主目录下的 [samplepage.md](https://github.com/libaxuan/LearnHubs/blob/main/samplepage.md?plain=1)。其中，`order` 参数表示侧边栏的顺序，数字越小越靠前，支持非整数和负数。我个人的偏好是将非干货或随想短文的 order 设置在 -0.01 到 -0.99，将干货类长文的 order 设置在 -1 到负无穷。每次新增文章都会在上一篇的基础上递减 order 值。这种设置使我能随时记录低于 1000 字的短文，同时不会影响那些寻求干货文章的用户体验，因为干货文章的排序始终保持在最上方。
 
 docs 目录结构如下：
 
@@ -115,13 +115,13 @@ docs
 
 注意：
 
-- LearnHabs 默认使用了 algolia 全文搜索。如果你没有使用 algolia 爬虫，则可以在 `docs/.vuepress/config.ts` 文件中删除 plugins 下的 docsearchPlugin 区块，网站将转用本地全文索引搜索。
+- LearnHubs 默认使用了 algolia 全文搜索。如果你没有使用 algolia 爬虫，则可以在 `docs/.vuepress/config.ts` 文件中删除 plugins 下的 docsearchPlugin 区块，网站将转用本地全文索引搜索。
 - `docs/_temp` 文件夹默认不同步到 GitHub 上。你可以手动在本地建立 `_temp` 文件夹，用来存放草稿。
 - 自 VuePress2 的 beta.54 版本开始，文件夹名前缀为 `_` 在生成链接时将被省略，例如文章路径为 `/_posts/`，但网页链接路径会是 `/posts/`。
 
 ### 看板娘
 
-LearnHabs 集成了看板娘 [Live2D Widget](https://github.com/stevenjoezhang/live2d-widget)，支持随机对话、切换人物服饰和玩打飞机游戏，能提升网站美观度和趣味性。如果不需要看板娘，可以删除 `docs\.vuepress\public` 下的 live2d-widget 文件夹。
+LearnHubs 集成了看板娘 [Live2D Widget](https://github.com/stevenjoezhang/live2d-widget)，支持随机对话、切换人物服饰和玩打飞机游戏，能提升网站美观度和趣味性。如果不需要看板娘，可以删除 `docs\.vuepress\public` 下的 live2d-widget 文件夹。
 
 如果网站部署在子页面 `https://xxx.github.io/yyy`，则需将子页面路径 yyy 加入到以下两个文件：
 
@@ -132,7 +132,7 @@ LearnHabs 集成了看板娘 [Live2D Widget](https://github.com/stevenjoezhang/l
 
 ### 读书笔记
 
-读书笔记中可能会有大量的原文引用，这与 LearnHabs 精简化知识点的初衷并不相符。因此，我们使用 docsify 来构建读书笔记，并将其放置于 `docs/reading` 目录下。在生成静态页面后，该路径下的文件不会被转换为 HTML 文件，而是将被自动复制到静态网站下，完成 docsify 页面构建和独立的读书笔记搜索索引。
+读书笔记中可能会有大量的原文引用，这与 LearnHubs 精简化知识点的初衷并不相符。因此，我们使用 docsify 来构建读书笔记，并将其放置于 `docs/reading` 目录下。在生成静态页面后，该路径下的文件不会被转换为 HTML 文件，而是将被自动复制到静态网站下，完成 docsify 页面构建和独立的读书笔记搜索索引。
 
 由于读书笔记架构更换到 docsify，不能使用相对链接。请调整 `docs\.vuepress\sidebar.ts` 的 `{ text: "读书笔记", icon: "read", link: "https://gpt-vip.top/reading/" }`，将 `gpt-vip.top` 替换为你的博客域名。
 
@@ -151,7 +151,7 @@ waline: {
 
 ## 🖥️ 网站部署
 
-在将 LearnHabs 推送到 GitHub 后，会自动生成可访问的网页。但由于国内访问 GitHub Pages 的速度不稳定，为了确保网站能够正常访问，建议增加国内的访问节点。
+在将 LearnHubs 推送到 GitHub 后，会自动生成可访问的网页。但由于国内访问 GitHub Pages 的速度不稳定，为了确保网站能够正常访问，建议增加国内的访问节点。
 
 很多人选择使用 Gitee Pages 作为国内节点，通过 GitHub Actions 将新文档同步到 Gitee 上，从而生成位于国内的静态页面 Gitee Pages。但是，Gitee Pages 有很多限制，例如必须实名认证、免费版无法自定义域名，近期也发生过下架风波。因此，我没有选择 Gitee，而是将文档同步到国内服务器（域名需要备案）或 Vercel（国外服务可能会出现断网）。
 
@@ -167,13 +167,13 @@ Vercel 的速度比 GitHub Pages 稳定一些，不过「\*.vercel.app」域名�
 
 Vercel 部署步骤如下：
 
-1. 点击 [![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FLearnHabs%2Ftree%2Flh-pages) 或将 `https://vercel.com/new/clone?repository-url=https://github.com/libaxuan/LearnHubs/tree/lh-pages` 中的 `libaxuan/LearnHubs` 改为 `你的用户名/仓库名`，然后会跳转至 Vercel 进行网页部署。如果你未登录，Vercel 提示你注册或登录，请使用 GitHub 账户进行快捷登录。
+1. 点击 [![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FLearnHubs%2Ftree%2Flh-pages) 或将 `https://vercel.com/new/clone?repository-url=https://github.com/libaxuan/LearnHubs/tree/lh-pages` 中的 `libaxuan/LearnHubs` 改为 `你的用户名/仓库名`，然后会跳转至 Vercel 进行网页部署。如果你未登录，Vercel 提示你注册或登录，请使用 GitHub 账户进行快捷登录。
 
 2. 输入一个你喜欢的 Vercel 项目名称，默认 private 即可，然后点击 `Create`。
 
    ![](https://iili.io/JnDEu4I.png "创建 Vercel 项目")
 
-3. 接着，Vercel 会基于 LearnHabs 模板帮助你新建并初始化仓库，仓库名为你之前输入的项目名。几十秒后，满屏的烟花会庆祝你部署成功。此时，点击 `Go to Dashboard` 跳转到应用的控制台。
+3. 接着，Vercel 会基于 LearnHubs 模板帮助你新建并初始化仓库，仓库名为你之前输入的项目名。几十秒后，满屏的烟花会庆祝你部署成功。此时，点击 `Go to Dashboard` 跳转到应用的控制台。
 
    ![](https://img.gpt-vip.top/2022-08-24-17-21-58.png "Vercel 部署成功提示")
 
@@ -195,7 +195,7 @@ Vercel 部署步骤如下：
        # 你的用户名
        dst_owner: rockbenben
        # 与 Vercel 链接的仓库名，也就是 Vercel 部署时新建的仓库
-       dst_repo_name: LearnHabs-Vercel
+       dst_repo_name: LearnHubs-Vercel
        dst_branch: main
        src_branch: lh-pages
        clean: true
@@ -225,22 +225,22 @@ Vercel 部署步骤如下：
 
 VuePress 默认使用 Vite。在打包时，会为文件引入时间戳和 hash，并对其进行重命名。这会导致即使没有更新文章，大部分生成的静态文件也会发生更改。如果你希望减少重命名频次，可以使用「[nohashname](https://github.com/libaxuan/LearnHubs/tree/nohashname)」分支。该分支使用的打包工具是 Webpack，并使用 chainWebpack 设置文件命名规则，避免不必要的文件重命名。（注意：nohashname 非主分支，不作功能更新。）
 
-### 本地运行 LearnHabs
+### 本地运行 LearnHubs
 
 1. 为了本地运行，你需要安装 npm 和 pnpm 环境，可参考[环境部署教程](https://gpt-vip.top/deploy/VPS.html#环境部署)。
-2. 将 LearnHabs 项目下载到本地后，在项目目录下打开终端，输入命令 `pnpm i` 安装依赖。
+2. 将 LearnHubs 项目下载到本地后，在项目目录下打开终端，输入命令 `pnpm i` 安装依赖。
 3. 在终端中输入命令 `pnpm docs:dev`，若成功则会提示访问链接，默认为 `http://localhost:8080/`。
 
 本地服务运行后，修改文件时页面会同步更新预览。若需停止本地服务器，可在终端中按下 `Ctrl + C`。
 
 ## 🆙 版本升级
 
-通常情况下，你不需要升级 LearnHabs，除非出现依赖报错或需要使用新功能。版本升级时，除了 docs 目录外，所有内容都应使用最新版本的 LearnHabs 进行覆盖升级，`docs/.vuepress` 中的 `config.ts` 和 `theme.ts` 需要与新版文件进行比对，选择性更新。
+通常情况下，你不需要升级 LearnHubs，除非出现依赖报错或需要使用新功能。版本升级时，除了 docs 目录外，所有内容都应使用最新版本的 LearnHubs 进行覆盖升级，`docs/.vuepress` 中的 `config.ts` 和 `theme.ts` 需要与新版文件进行比对，选择性更新。
 
 以下是升级目录的说明：
 
 ```bash
-LearnHabs
+LearnHubs
 |── .github                     # 比对升级（一般覆盖）
 ├── docs
 │   |── .vuepress               # 比对升级
@@ -253,13 +253,13 @@ LearnHabs
 │   |── reading                 # 读书笔记，一般不变
 │   ├── blog.md                 # 博客页面，一般不变
 │   └── others                  # 笔记/博客，无需更改
-└── others                      # 使用新版 LearnHabs 覆盖
+└── others                      # 使用新版 LearnHubs 覆盖
 ```
 
 ## Features
 
 - [x] 专题化，将长文分为几篇手册型文章，方便使用。
-- [x] 增加「阅读笔记」，该区块将用 docsify 管理，与 LearnHabs 文章区分离。
+- [x] 增加「阅读笔记」，该区块将用 docsify 管理，与 LearnHubs 文章区分离。
 - [x] 增加文章互动区块，让读者能通过 emoji 简便与作者沟通。
 - [x] 看板娘：远程支持 api，也可使用本地文件。
 - [x] 样式调整：黑色主题调整深紫色；调整 TOC 规则。

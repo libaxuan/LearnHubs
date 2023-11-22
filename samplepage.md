@@ -19,7 +19,7 @@ sidebar: false
 headerDepth: 2
 
 # 设置作者
-author: LearnHabs
+author: LearnHubs
 # 设置写作时间
 date: 2022-09-01
 # 一个页面可以有多个分类

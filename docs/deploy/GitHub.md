@@ -28,7 +28,7 @@ GitHub Actions 是一个持续集成和持续交付 (CI/CD) 平台，可用于�
     src_path: docs/README.md
     dst_path: /
     dst_owner: rockbenben
-    dst_repo_name: LearnHabs
+    dst_repo_name: LearnHubs
     dst_branch: main
     src_branch: main
     #clean: true
