@@ -7,8 +7,8 @@ title: 互联网小白
 #heroImage: /logo.svg
 heroText: 互联网小白
 tagline: 盛年不重来，一日难再晨
-bgImage: ![](/imgs/首页.png)
-[//]: # (bgImage: https://iili.io/JnZ5n3v.png)
+
+bgImage: https://iili.io/JnZ5n3v.png
 heroFullScreen: false
 #projects:
 #  - icon: project
