@@ -26,7 +26,7 @@ order: -13
 
 4. 点击 `Setting`, 修改 `Repository name` 为 `xxx.github.io`, `xxx` 是你的 Github 用户名。
 
-   ![](https://img.gpt-vip.top/20180505202201.png?imageMogr2/format/webp)
+   ![](/img/libaxuan-github-io.png)
 
 5. 同一页面选择「Code and automation」>「Pages」>「Build and deployment」>「Branch」, 将 master branch 设为 Github Pages 来源，网站运行目录默认为 `/(root)`。设置好后，点击「Save」。
 
