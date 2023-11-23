@@ -16,9 +16,9 @@ icon: note
 
 为此，我基于 VuePress 和 vuepress-theme-hope 构建了 LearnHubs ，将我所有的笔记与文章聚合到同一页面形成知识库，便于集中管理和分享。
 
-![](https://iili.io/JoIpb4V.jpg?imageMogr2/thumbnail/600x "笔记 + 文章 = LearnHubs 知识库")
+![](/img/流程1.png?imageMogr2/thumbnail/600x "笔记 + 文章 = LearnHubs 知识库")
 
-![](https://iili.io/JoT9HKl.jpg "笔记/博客自动化发布")
+![](/img/流程2.png "笔记/博客自动化发布")
 
 ## 🧱 笔记结构
 

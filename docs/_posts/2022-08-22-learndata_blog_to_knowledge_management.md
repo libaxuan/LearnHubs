@@ -20,7 +20,7 @@ order: -48
 
 突破迷思后，我基于 VuePress 和 vuepress-theme-hope 建立了 [LearnHubs](https://github.com/libaxuan/LearnHubs) 项目，将知识笔记、生活记录、博客和任何认为有价值的记录转换为 Markdown 文本，然后推送到 GitHub 生成 Pages 静态页面，并同步到国内云服务器，形成 [LearnHubs - 开源笔记](https://gpt-vip.top/)。
 
-![](https://iili.io/JoT9HKl.jpg "笔记/博客自动化发布")
+![](/img/流程2.png "笔记/博客自动化发布")
 
 LearnHubs 的笔记和文章格式是 Markdown，输出不受到应用的局限。LearnHubs 看起来像由文章组成的博客，但它的笔记是独立的知识点，是所有知识的终点站，是整理后的知识库。通过 LearnHubs 可以搜索和整理知识，不再需要来回翻找。把博客转为知识库后，我明显感到学习和知识使用的效率得到提高，开始摆脱「工具奴隶」和「效率中毒」陷阱。
 

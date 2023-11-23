@@ -73,14 +73,10 @@ export default hopeTheme({
     roundAvatar: true,
     medias: {
       GitHub: "https://github.com/libaxuan",
-      Zhihu: "https://www.zhihu.com/",
-      少数派: [
-        "https://sspai.com/",
-        path.resolve(__dirname, "icons/sspai.svg"),
-      ],
+//      Zhihu: "https://www.zhihu.com/",
       Wechat: "https://iili.io/Hr4MJ5l.jpg",
       Email: "mailto:libaxuan@gmail.com",
-      Discord: "https://discord.gg/you1",
+      Discord: "https://discord.gg/TeUFcFJy",
       RSS: "https://gpt-vip.top/rss.xml",
     },
   },
