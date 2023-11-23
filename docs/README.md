@@ -38,7 +38,7 @@ icon: note
 
 2. 接着，进入项目仓库的「Settings」>「Actions」>「General」，选中底部 Workflow permissions 中的 `Read and write permissions`，然后点击保存即可。如果未授权，GitHub Page 部署会由于 repo 权限不足而报错 `failed with exit code 128`。
 
-   ![](https://iili.io/JnQW129.webp?imageMogr2/format/webp)
+   ![](/img/readandwrite.webp?imageMogr2/format/webp)
 
 3. 接下来，请进入菜单栏顶部的「Actions」>「最新的 workflow」，并点击右上方的「Re-run jobs」>「Re-run all jobs」，以重新生成网页。若部署正确，GitHub 将自动搭建 gh-page 分支页面。
 
