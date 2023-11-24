@@ -90,6 +90,3 @@ Windows 蓝屏的原因众多，你在网上搜到的解决方案，大多与你
 2. 选择「写入调试信息」>「小内存转储（256KB）」，并将「小存储目录」设置为 `%SystemRoot%\Minidump`，确定后重启计算机；
 3. 再次异常关机后，可前往 `%SystemRoot%\Minidump` 提取即可。
 
-视频说明：
-
-<BiliBili bvid="BV1jt4y1i7C8" />
