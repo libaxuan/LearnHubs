@@ -1,22 +1,6 @@
 > 开源工具、效率方法、心理学探索的自我提升笔记
 
-<!-- TABLE OF CONTENTS 有序为<ol>，无序为<ul> -->
-<details>
-  <summary>Table of Contents</summary>
-  <ul>
-    <li><a href="#-初衷">✨ 初衷</a></li>
-    <li><a href="#-笔记结构">🧱 笔记结构</a></li>
-    <li><a href="#-搭建-LearnHubs">🍥 搭建 LearnHubs</a></li>
-    <li><a href="#-配置-LearnHubs">🔣 配置 LearnHubs</a></li>
-    <li><a href="#️-网站部署">🖥️ 网站部署</a></li>
-    <li><a href="#-常见问题">🤔 常见问题</a></li>
-    <li><a href="#-版本升级">🆙 版本升级</a></li>
-  </ul>
-</details>
-
-<a href="https://discord.gg/TeUFcFJy">
-   <img src="https://img.shields.io/discord/1048780149899939881?color=%2385c8c8&label=Discord&logo=discord&style=for-the-badge" alt="chat on Discord">
-</a>
+[![](https://img.shields.io/discord/1048780149899939881?color=%2385c8c8&label=Discord&logo=discord&style=for-the-badge)](https://discord.gg/TeUFcFJy)
 
 ## ✨ 初衷
 
@@ -24,7 +8,7 @@
 
 更重要的是，**笔记里的知识并不属于你，只有经过消化、应用，才会成为我们的财富。**
 
-为此，我基于 VuePress 和 vuepress-theme-hope 构建了 LearnHubs 学习中心，将我所有的笔记与文章聚合到同一页面形成知识库，便于集中管理和分享。
+为此，我基于 VuePress 和 vuepress-theme-hope 构建了 LearnHubs ，将我所有的笔记与文章聚合到同一页面形成知识库，便于集中管理和分享。
 
 ![](/img/流程1.png?imageMogr2/thumbnail/600x "笔记 + 文章 = LearnHubs 知识库")
 
@@ -55,7 +39,7 @@
    ![](/img/actions.png)
 
 
-   需要注意的是：如果你不需要将网页部署同步到个人服务器，**请删除 `.github/workflows/main.yml` 中 Sync files 区块的代码**，否则会出现报错 `Error: Input required and not supplied: server`。
+需要注意的是：如果你不需要将网页部署同步到个人服务器，**请删除 `.github/workflows/main.yml` 中 Sync files 区块的代码**，否则会出现报错 `Error: Input required and not supplied: server`。
 
    ```yaml
       ### 没有服务器的话，请删除本区块代码，防止报错 ###
@@ -76,7 +60,7 @@
 
    ![](/img/libaxuan-github-io.png)
 
-5. 在同一页面选择「Settings」>「Pages」>「Build and deployment」>「Branch」, 将 gh-page branch 设为 GitHub Pages 的来源，网站运行目录默认为 `/(root)`。设置完成后，点击「Save」。如果找不到 lh-pages 分支，可以按照上面提到的第三步进行操作，或在 GitHub 中修改任意文件以手动触发 GitHub Action，等待其执行完成后，再重新设置 Pages 的来源。
+5. 在同一页面选择「Settings」>「Pages」>「Build and deployment」>「Branch」, 将 gh-page branch 设为 GitHub Pages 的来源，网站运行目录默认为 `/(root)`。设置完成后，点击「Save」。如果找不到 gh-pages 分支，可以按照上面提到的第三步进行操作，或在 GitHub 中修改任意文件以手动触发 GitHub Action，等待其执行完成后，再重新设置 Pages 的来源。
 
    ![](https://iili.io/JnQjSpe.webp?imageMogr2/format/webp)
 
@@ -166,7 +150,7 @@ Vercel 的速度比 GitHub Pages 稳定一些，不过「\*.vercel.app」域名�
 
 Vercel 部署步骤如下：
 
-1. 点击 [![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FLearnHubs%2Ftree%2Flh-pages) 或将 `https://vercel.com/new/clone?repository-url=https://github.com/libaxuan/LearnHubs/tree/lh-pages` 中的 `libaxuan/LearnHubs` 改为 `你的用户名/仓库名`，然后会跳转至 Vercel 进行网页部署。如果你未登录，Vercel 提示你注册或登录，请使用 GitHub 账户进行快捷登录。
+1. 点击 [![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frockbenben%2FLearnHubs%2Ftree%2Fgh-pages) 或将 `https://vercel.com/new/clone?repository-url=https://github.com/libaxuan/LearnHubs/tree/gh-pages` 中的 `libaxuan/LearnHubs` 改为 `你的用户名/仓库名`，然后会跳转至 Vercel 进行网页部署。如果你未登录，Vercel 提示你注册或登录，请使用 GitHub 账户进行快捷登录。
 
 2. 输入一个你喜欢的 Vercel 项目名称，默认 private 即可，然后点击 `Create`。
 
@@ -196,7 +180,7 @@ Vercel 部署步骤如下：
        # 与 Vercel 链接的仓库名，也就是 Vercel 部署时新建的仓库
        dst_repo_name: LearnHubs-Vercel
        dst_branch: main
-       src_branch: lh-pages
+       src_branch: gh-pages
        clean: true
    ```
 
@@ -231,35 +215,3 @@ VuePress 默认使用 Vite。在打包时，会为文件引入时间戳和 hash�
 3. 在终端中输入命令 `pnpm docs:dev`，若成功则会提示访问链接，默认为 `http://localhost:8080/`。
 
 本地服务运行后，修改文件时页面会同步更新预览。若需停止本地服务器，可在终端中按下 `Ctrl + C`。
-
-## 🆙 版本升级
-
-通常情况下，你不需要升级 LearnHubs，除非出现依赖报错或需要使用新功能。版本升级时，除了 docs 目录外，所有内容都应使用最新版本的 LearnHubs 进行覆盖升级，`docs/.vuepress` 中的 `config.ts` 和 `theme.ts` 需要与新版文件进行比对，选择性更新。
-
-以下是升级目录的说明：
-
-```bash
-LearnHubs
-|── .github                     # 比对升级（一般覆盖）
-├── docs
-│   |── .vuepress               # 比对升级
-│   │   ├── config.ts           # 大升级时需比对升级
-│   │   ├── theme.ts            # 大升级时需比对升级
-│   │   ├── sidebar.ts          # 侧边栏，一般不变
-│   │   ├── navbar.ts           # 导航栏，一般不变
-│   │   ├── templateBuild.html  # 网页模板，一般不变
-│   │   └── public              # 自定义文档，一般不变
-│   |── reading                 # 读书笔记，一般不变
-│   ├── blog.md                 # 博客页面，一般不变
-│   └── others                  # 笔记/博客，无需更改
-└── others                      # 使用新版 LearnHubs 覆盖
-```
-
-## Features
-
-- [x] 专题化，将长文分为几篇手册型文章，方便使用。
-- [x] 增加「阅读笔记」，该区块将用 docsify 管理，与 LearnHubs 文章区分离。
-- [x] 增加文章互动区块，让读者能通过 emoji 简便与作者沟通。
-- [x] 看板娘：远程支持 api，也可使用本地文件。
-- [x] 样式调整：黑色主题调整深紫色；调整 TOC 规则。
-- [x] typo 修正：v1.0.3 之前的版本升级需将「docs\.vuepress\sidebar.ts」中的「collapsable」全部替换为「collapsible」。
