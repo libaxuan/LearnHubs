@@ -10,9 +10,9 @@
 
 为此，我基于 VuePress 和 vuepress-theme-hope 构建了 LearnHubs ，将我所有的笔记与文章聚合到同一页面形成知识库，便于集中管理和分享。
 
-![](/img/流程1.png?imageMogr2/thumbnail/600x "笔记 + 文章 = LearnHubs 知识库")
+![](https://freeimage.host/i/12.JoIpb4V "笔记 + 文章 = LearnHubs 知识库")
 
-![](/img/流程2.png "笔记/博客自动化发布")
+![](https://freeimage.host/i/13.JoT9HKl "笔记/博客自动化发布")
 
 ## 🧱 笔记结构
 
@@ -32,7 +32,7 @@
 
 2. 接着，进入项目仓库的「Settings」>「Actions」>「General」，选中底部 Workflow permissions 中的 `Read and write permissions`，然后点击保存即可。如果未授权，GitHub Page 部署会由于 repo 权限不足而报错 `failed with exit code 128`。
 
-   ![](/img/readandwrite.webp?imageMogr2/format/webp)
+   ![](https://iili.io/JnQjSpe.webp?imageMogr2/format/webp)
 
 3. 接下来，请进入菜单栏顶部的「Actions」>「最新的 workflow」，并点击右上方的「Re-run jobs」>「Re-run all jobs」，以重新生成网页。若部署正确，GitHub 将自动搭建 gh-page 分支页面。
 
