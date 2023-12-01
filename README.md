@@ -32,11 +32,11 @@
 
 2. 接着，进入项目仓库的「Settings」>「Actions」>「General」，选中底部 Workflow permissions 中的 `Read and write permissions`，然后点击保存即可。如果未授权，GitHub Page 部署会由于 repo 权限不足而报错 `failed with exit code 128`。
 
-   ![](https://iili.io/JnQjSpe.webp?imageMogr2/format/webp)
+   ![](https://gpt-vip.top/img/readandwrite.webp?imageMogr2/format/webp)
 
 3. 接下来，请进入菜单栏顶部的「Actions」>「最新的 workflow」，并点击右上方的「Re-run jobs」>「Re-run all jobs」，以重新生成网页。若部署正确，GitHub 将自动搭建 gh-page 分支页面。
 
-   ![](/img/actions.png)
+   ![](https://gpt-vip.top/img/actions.png)
 
 
 需要注意的是：如果你不需要将网页部署同步到个人服务器，**请删除 `.github/workflows/main.yml` 中 Sync files 区块的代码**，否则会出现报错 `Error: Input required and not supplied: server`。
@@ -58,7 +58,7 @@
 
 4. 然后点击「Settings」, 修改 `Repository name` 为 `用户名.github.io`。假设你的仓库链接是 `https://github.com/xxx/LearnHubs`，那么中间的 `xxx` 就是你的用户名。如果该仓库名称已被使用，GitHub Pages 将无法正常显示样式，请查看页面底部的常见问题来设置子域名。
 
-   ![](/img/libaxuan-github-io.png)
+   ![](https://gpt-vip.top/img/libaxuan-github-io.png)
 
 5. 在同一页面选择「Settings」>「Pages」>「Build and deployment」>「Branch」, 将 gh-page branch 设为 GitHub Pages 的来源，网站运行目录默认为 `/(root)`。设置完成后，点击「Save」。如果找不到 gh-pages 分支，可以按照上面提到的第三步进行操作，或在 GitHub 中修改任意文件以手动触发 GitHub Action，等待其执行完成后，再重新设置 Pages 的来源。
 
@@ -158,7 +158,7 @@ Vercel 部署步骤如下：
 
 3. 接着，Vercel 会基于 LearnHubs 模板帮助你新建并初始化仓库，仓库名为你之前输入的项目名。几十秒后，满屏的烟花会庆祝你部署成功。此时，点击 `Go to Dashboard` 跳转到应用的控制台。
 
-   ![](/img/vercel-success.png "Vercel 部署成功提示")
+   ![](https://gpt-vip.top/img/vercel-success.png "Vercel 部署成功提示")
 
 4. 为了让 Vercel 页面与 GitHub Pages 自动保持同步更新，你需要配置 `PERSONAL_TOKEN` 和 GitHub Actions。
 
