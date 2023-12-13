@@ -12,10 +12,6 @@ order: -60
 ----
 # awesome-selfhosted-cn
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-## 介绍
-
 [Awesome-Selfhosted](https://github.com/Kickball/awesome-selfhosted/) 是由 [Edward D](https://github.com/Kickball) 发起和维护资源列表，收集了许多可以在本地搭建的网络服务和 Web 应用列表。
 
 [Awesome-Selfhosted-cn](https://github.com/haiiiiiyun/self-hosted-cn) 则是依据 [Awesome-Selfhosted](https://github.com/Kickball/awesome-Selfhosted) 翻译而来。也欢迎你帮助推荐和提供建议！
