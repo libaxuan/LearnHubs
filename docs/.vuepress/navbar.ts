@@ -58,7 +58,7 @@ export default navbar([
       {
         text: "ChatGPT SC",
         icon: "creative",
-        link: "https://www.aishort.top",
+        link: "https://shortcutai.eu.org",
       },
       { text: "Enjoy Home", icon: "pic", link: "https://autoaigpt.cn" },
       { text: "其他坑位", icon: "others", link: "https://vercel.com" },
