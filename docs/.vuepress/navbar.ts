@@ -81,6 +81,7 @@ export default navbar([
       { text: "Email", icon: "alias", link: "mailto:libaxuann@gmail.com" },
       { text: "Discord", icon: "group", link: "https://discord.gg/TeUFcFJy" },
       { text: "RSS", icon: "rss", link: "https://gpt-vip.top/rss.xml" },
+      { text: "Dashboard", icon: "rss", link: "https://us.umami.is/share/mqhzWMSoh5PUNvnu/LearnHubs" },
     ],
   },
 ]);
