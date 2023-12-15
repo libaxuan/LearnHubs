@@ -6,25 +6,22 @@
     <link>https://gpt-vip.top/</link>
     <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 15 Dec 2023 08:05:48 GMT</pubDate>
-    <lastBuildDate>Fri, 15 Dec 2023 08:05:48 GMT</lastBuildDate>
+    <pubDate>Fri, 15 Dec 2023 10:41:53 GMT</pubDate>
+    <lastBuildDate>Fri, 15 Dec 2023 10:41:53 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>工具</category>
     <category>自动化</category>
     <category>系统</category>
     <item>
-      <title>awesome-selfhosted-cn（百宝777777！）</title>
+      <title>awesome-selfhosted-cn（百宝箱！）</title>
       <link>https://gpt-vip.top/posts/2023-12-13-awesome-selfhosted-cn.html</link>
       <guid>https://gpt-vip.top/posts/2023-12-13-awesome-selfhosted-cn.html</guid>
-      <source url="https://gpt-vip.top/rss.xml">awesome-selfhosted-cn（百宝777777！）</source>
+      <source url="https://gpt-vip.top/rss.xml">awesome-selfhosted-cn（百宝箱！）</source>
       <description>Awesome-Selfhosted 是由 Edward D 发起和维护资源列表，收集了许多可以在本地搭建的网络服务和 Web 应用列表。 Awesome-Selfhosted-cn 则是依据 Awesome-Selfhosted 翻译而来。也欢迎你帮助推荐和提供建议！</description>
       <category>工具</category>
       <pubDate>Wed, 13 Dec 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<ul>
-<li></li>
-</ul>
-<p><a href="https://github.com/Kickball/awesome-selfhosted/" target="_blank" rel="noopener noreferrer">Awesome-Selfhosted</a> 是由 <a href="https://github.com/Kickball" target="_blank" rel="noopener noreferrer">Edward D</a> 发起和维护资源列表，收集了许多可以在本地搭建的网络服务和 Web 应用列表。</p>
+      <content:encoded><![CDATA[<p><a href="https://github.com/Kickball/awesome-selfhosted/" target="_blank" rel="noopener noreferrer">Awesome-Selfhosted</a> 是由 <a href="https://github.com/Kickball" target="_blank" rel="noopener noreferrer">Edward D</a> 发起和维护资源列表，收集了许多可以在本地搭建的网络服务和 Web 应用列表。</p>
 <p><a href="https://github.com/haiiiiiyun/self-hosted-cn" target="_blank" rel="noopener noreferrer">Awesome-Selfhosted-cn</a> 则是依据 <a href="https://github.com/Kickball/awesome-Selfhosted" target="_blank" rel="noopener noreferrer">Awesome-Selfhosted</a> 翻译而来。也欢迎你帮助推荐和提供建议！</p>
 <p>Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers.</p>
 <p>This is a list of <a href="https://en.wikipedia.org/wiki/Free_software" target="_blank" rel="noopener noreferrer">Free</a> Software <a href="https://en.wikipedia.org/wiki/Network_service" target="_blank" rel="noopener noreferrer">network services</a> and <a href="https://en.wikipedia.org/wiki/Web_application" target="_blank" rel="noopener noreferrer">web applications</a> which can be hosted locally. Non-Free software is listed on the <a href="/_posts/non-free.html" target="blank">Non-Free</a> page.</p>
