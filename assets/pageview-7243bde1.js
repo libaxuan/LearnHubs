@@ -1,1 +1,0 @@
-import{_ as n}from"./app-db6406bb.js";const r=async()=>{try{const{pageviewCount:t}=await n(()=>import("./app-db6406bb.js").then(e=>e.M),[]);return t({serverURL:"https://waline.gpt-vip.top"})}catch{console.error("@waline/client is not installed!");return}};export{r as updatePageview};
