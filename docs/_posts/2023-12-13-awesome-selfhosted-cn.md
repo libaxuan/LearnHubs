@@ -1,5 +1,5 @@
 ---
-title: awesome-selfhosted-cn（百宝箱）
+title: awesome-selfhosted-cn（百宝箱666！）
 date: 2023-12-13
 category:
   - 工具
