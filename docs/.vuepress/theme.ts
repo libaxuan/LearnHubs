@@ -13,7 +13,7 @@ export default hopeTheme({
   iconAssets: "iconfont",
 
   author: {
-    name: "清顺",
+    name: "libaxuan",
     url: "https://gpt-vip.top",
   },
 
@@ -66,9 +66,9 @@ export default hopeTheme({
   // 主题功能选项：https://theme-hope.vuejs.press/zh/config/theme/feature.html
   blog: {
     articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
-    name: "清顺",
+    name: "libaxuan",
     avatar: "/avatar_self.webp",
-    description: "迷信新工具，热衷于人工智能，定期分享探索成果",
+    description: "打破极限,创造无限可能!",
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
