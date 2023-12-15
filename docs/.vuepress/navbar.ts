@@ -61,7 +61,7 @@ export default navbar([
         link: "https://shortcutai.eu.org",
       },
       { text: "Enjoy Home", icon: "pic", link: "https://autoaigpt.cn" },
-      { text: "其他坑位", icon: "others", link: "https://vercel.com" },
+      { text: "免费图床", icon: "others", link: "https://autoschool.eu.org" },
       {
         text: "万能工具",
         icon: "categoryselected",
