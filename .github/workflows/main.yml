@@ -37,7 +37,7 @@ jobs:
           pnpm cpx "docs/reading/**" docs/.vuepress/public/reading
           pnpm run docs:build
           > docs/.vuepress/dist/.nojekyll
-#部署到  https://libaxuan.github.io
+#部署到  https://libaxuan.github.io 关闭
 #      - name: Deploy GitHub Pages
 #        uses: JamesIves/github-pages-deploy-action@v4
 #        with:
