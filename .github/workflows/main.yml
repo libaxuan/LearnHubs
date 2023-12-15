@@ -38,12 +38,12 @@ jobs:
           pnpm run docs:build
           > docs/.vuepress/dist/.nojekyll
 #部署到  https://libaxuan.github.io 关闭
-#      - name: Deploy GitHub Pages
-#        uses: JamesIves/github-pages-deploy-action@v4
-#        with:
-#          # 这是文档部署到的分支名称
-#          branch: lh-pages
-#          folder: docs/.vuepress/dist
+      - name: Deploy GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # 这是文档部署到的分支名称
+          branch: lh-pages
+          folder: docs/.vuepress/dist
       # 将页面更新到 Vercel
       - name: Copy file to Vercel
         if: always()
