@@ -21,14 +21,14 @@ export default sidebar({
       "design.md",
       "ChatGPT.md",
       "Chrome.md",
-      {
+/*      {
         text: "直播手册",
         icon: "load",
         prefix: "livestreaming/",
         link: "",
         collapsible: true,
         children: "structure",
-      },
+      },*/
     ],
   },
   {
@@ -101,6 +101,16 @@ export default sidebar({
       },
     ],
   },
+    {
+      text: "🏠 生活和艺术",
+      icon: "",
+      prefix: "/life/",
+      link: "",
+      collapsible: true,
+      children: [
+        "personalFinance.md",
+      ]
+    },
 /*  {
     text: "🛖 生活记录",
     icon: "",
