@@ -17,6 +17,7 @@ export default sidebar({
     collapsible: true,
     children: [
       "Applist.md",
+      "Appfree.md",
       "AppNotes.md",
       "design.md",
       "ChatGPT.md",
