@@ -1,0 +1,1 @@
+import{a5 as n}from"./app-209f4b71.js";const r=async()=>{try{const{pageviewCount:t}=await n(()=>import("./app-209f4b71.js").then(e=>e.a6),[]);return t({serverURL:"https://waline.gpt-vip.top"})}catch{console.error("@waline/client is not installed!");return}};export{r as updatePageview};
