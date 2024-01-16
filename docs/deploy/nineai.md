@@ -1,6 +1,6 @@
 ---
 article: false
-title: 静态部署
+title: nine-ai部署教程
 icon: generic
 order: 1
 ---
@@ -28,6 +28,17 @@ project-root
 
 在项目根目录执行以下命令进行本地开发：
 
+1. 进入 `service` 目录，创建 `.env` 文件，修改和测试数据库信息连接信息和 Redis 配置。
+2. 数据库名称不能已经存在默认是chatgpt
+3. redis、mysql 一定要先本地测试通，再保存.env文件
+3. 上诉工作完成后执行：
+
+```bash
+pnpm i
+pnpm dev
+```
+> 注意注意！这一步必须做,自动创建数据库,否则后面没有数据库、各种失败！
+
 ```bash
 # 安装依赖
 pnpm install
@@ -43,14 +54,6 @@ pnpm build
 
 分别安装依赖并启动项目：
 
-1. 进入 `service` 目录，创建 `.env` 文件，并修改测试数据库信息和 Redis 配置。完成后执行：
-
-```bash
-pnpm i
-pnpm dev
-```
-
-> 注意：ORM映射会自动创建数据库。
 
 2. 进入 `chat` 目录，执行以下命令启动用户端：
 
@@ -97,3 +100,10 @@ pnpm build
 #### 刷新404问题
 
 前端在刷新时可能会出现404问题，需要对 Nginx 进行配置。请参考相关文档进行配置。
+
+#### 效果图如下
+
+用户界面
+![](/img/nine-user.jpg)
+管理界面
+![](/img/nineadmin.jpg)
