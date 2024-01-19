@@ -1,6 +1,6 @@
 ---
 article: false
-title: nine-ai-技术绘画数据快速导入
+title: nine-ai-基础绘画数据快速导入
 icon: generic
 order: 1
 ---
