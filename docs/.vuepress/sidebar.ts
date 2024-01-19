@@ -72,6 +72,7 @@ export default sidebar({
           "CloudServices.md",
           "VPS.md",
           "nineai.md",
+          "nineapp.md",
           {
             text: "部署工具",
             icon: "emmet",
