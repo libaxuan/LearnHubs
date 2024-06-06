@@ -58,5 +58,5 @@ order: 3
 - [WSL 从 C 盘迁移至 D 盘的简单实用方法](https://dandelioncloud.cn/article/details/1569126817577791489)
 - 英语键盘删不掉：添加英语语言包，然后再删除，英语键盘也会一起删除。
 - 右键更改前先备份注册表，有几率会影响系统稳定性。
-- 实时将音频转文字：管理员方式安装 [VB-CABLE](https://vb-audio.com/Cable/)，输入输出设备都选 VB-CABLE，详细设置查看 [How to Convert Audio to Text - FREE & No Time Limits](https://autoaigpt.cn/watch?v=1DsrniDGOJQ)。
+- 实时将音频转文字：管理员方式安装 [VB-CABLE](https://vb-audio.com/Cable/)，输入输出设备都选 VB-CABLE，详细设置查看 [How to Convert Audio to Text - FREE & No Time Limits](https://autoais.eu.org/watch?v=1DsrniDGOJQ)。
 - 开机用[管理员权限启动脚本](../code/AutoHotkey.html#管理员权限运行脚本)。

@@ -53,19 +53,24 @@ export default navbar([
       {
         text: "FreeTimeAI",
         icon: "creative",
-        link: "https://sensechat.vip/",
+        link: "https://autoaigpt.eu.org/",
+      },
+      {
+        text: "LobeAI",
+        icon: "creative",
+        link: "https://freegpts.eu.org/welcome/",
       },
       {
         text: "ChatGPT SC",
         icon: "creative",
         link: "https://shortcutai.eu.org",
       },
-      { text: "Enjoy Home", icon: "pic", link: "https://autoaigpt.cn" },
+      { text: "Enjoy Home", icon: "pic", link: "https://autoais.eu.org/" },
       { text: "免费图床", icon: "others", link: "https://autoschool.eu.org" },
       {
         text: "万能工具",
         icon: "categoryselected",
-        link: "https://itools.site",
+        link: "https://it-tools.tech",
       },
     ],
   },

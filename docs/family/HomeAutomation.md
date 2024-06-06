@@ -51,7 +51,7 @@ Home Assistant 虽然一直被吹得很厉害，但即时性的传感器可能�
 
 ### Zigbee2MQTT
 
-[Zigbee2MQTT](https://autoaigpt.cn/watch?v=R_CikjR7tiw) 是开源的智能网关，支持大部分的智能设备。其辐射范围更大，能同时联接 200 个设备，它的插网线版更稳定不易掉线。
+[Zigbee2MQTT](https://autoais.eu.org/watch?v=R_CikjR7tiw) 是开源的智能网关，支持大部分的智能设备。其辐射范围更大，能同时联接 200 个设备，它的插网线版更稳定不易掉线。
 
 不过，我的设备都是米家系，暂时用不到开源网关，等买了其他品牌的设备，再考虑 Zigbee2MQTT。
 
